@@ -8,6 +8,9 @@ scoreboard objectives add enableCustomkits trigger
 scoreboard objectives add tpLocs dummy
 scoreboard objectives add tp trigger
 scoreboard objectives add role dummy
+execute unless score disableEscapistkit general matches 0.. run scoreboard players set disableEscapistkit general 0
+execute unless score disablePrisonerkit general matches 0.. run scoreboard players set disablePrisonerkit general 0
+execute unless score disableGuardkit general matches 0.. run scoreboard players set disableGuardkit general 0
 execute unless entity @e[tag=guardLoc] run summon minecraft:marker ~ ~ ~ {Tags:["guardLoc"]}
 execute unless entity @e[tag=escapistLoc] run summon minecraft:marker ~ ~ ~ {Tags:["escapistLoc"]}
 execute unless entity @e[tag=prisonerLoc] run summon minecraft:marker ~ ~ ~ {Tags:["prisonerLoc"]}
