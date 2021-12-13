@@ -8,9 +8,26 @@ Secondly, reload or restart your server if havent done already. Now just execute
 ```
 /tag @s add admin
 ```
-
-
-
+# Teleport Locations
+You can setup the teleport locations with:
+```
+/trigger setupTpLocs
+```
+# Roles
+You can setup the roles with:
+```
+/trigger setupRoles
+```
+# Custom Kits
+You can do this command to enable custom kits, you will get teleported with signs naming which barrel is which kit, simply put the custom kits you want into the barrel.
+```
+/trigger enableCustomkits
+```
+# Teleport
+This will set everything in action including teleports and custom kits.
+```
+/trigger tp
+```
 ---
 # API
   The API is a way to interface for prison builders in their commandblocks making certain tasks easier aswell as limiting the datapack on the prison.
