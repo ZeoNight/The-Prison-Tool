@@ -2,6 +2,16 @@
  A datapack that helps you escape or develop prisons with escape dedectors etc.
 
 ---
+# Getting started
+First, you will have to add the datapack to your world. you simply drag the release into ``world/datapacks``.
+Secondly, reload or restart your server if havent done already. Now just execute this command below to give yourself Admin perms on the datapack interface:
+```
+/tag @s add admin
+```
+
+
+
+---
 # API
   The API is a way to interface for prison builders in their commandblocks making certain tasks easier aswell as limiting the datapack on the prison.
   ```
