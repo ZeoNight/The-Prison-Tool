@@ -1,6 +1,6 @@
 # The Prison Tool
  A datapack that helps you escape or develop prisons with escape dedectors etc.
-
+[![CurseForge downloads](http://cf.way2muchnoise.eu/full_557136_downloads.svg)](https://www.curseforge.com/minecraft/texture-packs/the-prison-tool)
 
 ---
 # Getting started
